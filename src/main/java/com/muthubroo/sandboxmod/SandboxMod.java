@@ -1,5 +1,6 @@
 package com.muthubroo.sandboxmod;
 
+import com.muthubroo.sandboxmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +12,8 @@ public class SandboxMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItems.registerItems();
+
 		LOGGER.info("Initialization complete.");
 	}
 }

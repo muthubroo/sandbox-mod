@@ -1,0 +1,14 @@
+{
+    "layers": {
+        "humanoid": [
+            {
+                "texture": "sandbox-mod:copper"
+            }
+        ],
+        "humanoid_leggings": [
+            {
+                "texture": "sandbox-mod:copper"
+            }
+        ]
+    }
+}
