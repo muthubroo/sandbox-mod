@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "sandbox-mod",
+	"version": "${version}",
+	"name": "Sandbox Mod",
+	"description": "This is a Sandbox Mod for Minecraft where I try things out as I learn.",
+	"authors": [
+		"Muathasim Parambat"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/sandbox-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.muthubroo.sandboxmod.SandboxMod"
+		],
+		"fabric-datagen": [
+			"com.muthubroo.sandboxmod.SandboxModDataGenerator"
+		],
+		"client": [
+			"com.muthubroo.sandboxmod.SandboxModClient"
+		]
+	},
+	"mixins": [
+		"sandbox-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.13",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
