@@ -13,10 +13,10 @@ import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    private static final Item COPPER_HELMET = register("copper_helmet", new Item.Settings().armor(ModArmorMaterials.COPPER, EquipmentType.HELMET));
-    private static final Item COPPER_CHESTPLATE = register("copper_chestplate", new Item.Settings().armor(ModArmorMaterials.COPPER, EquipmentType.CHESTPLATE));
-    private static final Item COPPER_LEGGINGS = register("copper_leggings", new Item.Settings().armor(ModArmorMaterials.COPPER, EquipmentType.LEGGINGS));
-    private static final Item COPPER_BOOTS = register("copper_boots", new Item.Settings().armor(ModArmorMaterials.COPPER, EquipmentType.BOOTS));
+    public static final Item COPPER_HELMET = register("copper_helmet", new Item.Settings().armor(ModArmorMaterials.COPPER, EquipmentType.HELMET));
+    public static final Item COPPER_CHESTPLATE = register("copper_chestplate", new Item.Settings().armor(ModArmorMaterials.COPPER, EquipmentType.CHESTPLATE));
+    public static final Item COPPER_LEGGINGS = register("copper_leggings", new Item.Settings().armor(ModArmorMaterials.COPPER, EquipmentType.LEGGINGS));
+    public static final Item COPPER_BOOTS = register("copper_boots", new Item.Settings().armor(ModArmorMaterials.COPPER, EquipmentType.BOOTS));
 
     private static Item register(final String name, final Item.Settings settings) {
         final RegistryKey<Item> key = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(SandboxMod.MOD_ID, name));
