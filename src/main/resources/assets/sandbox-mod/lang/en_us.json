@@ -1,6 +1,8 @@
 {
-    "item.sandbox-mod.copper_helmet": "Copper Helmet",
+    "entity.sandbox-mod.dragon": "Dragon",
+
+    "item.sandbox-mod.copper_boots": "Copper Boots",
     "item.sandbox-mod.copper_chestplate": "Copper Chestplate",
-    "item.sandbox-mod.copper_leggings": "Copper Leggings",
-    "item.sandbox-mod.copper_boots": "Copper Boots"
+    "item.sandbox-mod.copper_helmet": "Copper Helmet",
+    "item.sandbox-mod.copper_leggings": "Copper Leggings"
 }

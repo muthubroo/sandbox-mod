@@ -1,5 +1,6 @@
 package com.muthubroo.sandboxmod;
 
+import com.muthubroo.sandboxmod.entity.ModEntities;
 import com.muthubroo.sandboxmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,6 +14,7 @@ public class SandboxMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerItems();
+		ModEntities.registerEntities();
 
 		LOGGER.info("Initialization complete.");
 	}
